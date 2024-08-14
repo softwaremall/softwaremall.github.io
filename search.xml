@@ -1,58 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试文档xzw</title>
-    <url>/2023/11/11/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3%20-%20%E5%89%AF%E6%9C%AC/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>分类2</category>
-        <category>子分类2</category>
-        <category>子子分类2</category>
-      </categories>
-      <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/08/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>nas使用手册</title>
+    <url>/2024/08/14/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/</url>
+    <content><![CDATA[<h1 id="电脑端"><a href="#电脑端" class="headerlink" title="电脑端"></a>电脑端</h1><h2 id="连接设备"><a href="#连接设备" class="headerlink" title="连接设备"></a>连接设备</h2><p>设备默认ip是192.168.2.50端口号80，用网线直连设备和电脑，修改电脑ip地址和设备在同一个网段，如192.168.2.9</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/143.png" alt="143"></p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/144.png" alt="144"></p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/145.png" alt="145"></p>
+<p> 在浏览器中访问<a href="http://192.168.2.50来管理设备.根据实际需求可以在《网络配置》里面修改网络,接入局域网中./">http://192.168.2.50来管理设备。根据实际需求可以在《网络配置》里面修改网络，接入局域网中。</a></p>
+<h2 id="创建账号"><a href="#创建账号" class="headerlink" title="创建账号"></a>创建账号</h2><p>创建账号，输入自己的用户名和密码创建即可。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/6.png" alt="6"></p>
+<h2 id="存储管理"><a href="#存储管理" class="headerlink" title="存储管理"></a>存储管理</h2><p>点击存储空间方向键进入存储管理。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/81.png"></p>
+<h3 id="存储空间和硬盘信息"><a href="#存储空间和硬盘信息" class="headerlink" title="存储空间和硬盘信息"></a>存储空间和硬盘信息</h3><p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/83.png"></p>
+<p>我们接入的U盘，磁盘等存储设备信息都会在硬盘中显示。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/84.png"></p>
+<h3 id="创建存储空间"><a href="#创建存储空间" class="headerlink" title="创建存储空间"></a>创建存储空间</h3><p>插入u盘磁盘等存储设备后，在files文件管理界面里面并不会有对应的目录，需要我们创建一个存储空间。</p>
+<p>点击创建存储空间进入存储空间创建页面</p>
+<h4 id="从硬盘创建"><a href="#从硬盘创建" class="headerlink" title="从硬盘创建"></a>从硬盘创建</h4><p>点击创建储存空间按钮</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/134.png"></p>
+<p><strong>存储空间名称</strong>： 创建成功后会在&#x2F;DATA目录下生成一个该名称文件夹。</p>
+<p><strong>选择硬盘</strong>：这里我们选择的是我们一款usb设备</p>
+<p><strong>创建</strong>： 直接创建, 部分设备格式在linux下不支持不一定能够直接创建成功。</p>
+<p><strong>格式化创建</strong>： 部分设备格式在linux下不支持，会自动格式化硬盘为linux支持的格式然后创建。</p>
+<p><strong>重置并格式化创建</strong>：部分设备分区信息错误或损坏，该按钮会先重置分区信息，然后格式化创建。</p>
+<h5 id="u盘在windows无法识别"><a href="#u盘在windows无法识别" class="headerlink" title="u盘在windows无法识别"></a>u盘在windows无法识别</h5><p>原因：linux系统的文件格式在windows中无法直接识别，可以直接格式化为exFAT格式。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/135.png"></p>
+<p><strong>如果看不到u盘可以在磁盘管理器中操作。</strong></p>
+<p>在搜索框搜索创建并格式化磁盘分区，根据容量，或者插拔u盘找到我们的u盘，这里我们是磁盘2。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/132.png"></p>
+<p>右键磁盘2，选择删除卷，删除完成后，右键新建简单卷，点击下一步，文件格式选择exFAT,点击下一页完成</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/133.png"></p>
+<p>操作完成后即可识别到我们的u盘</p>
+<h4 id="从nfs创建"><a href="#从nfs创建" class="headerlink" title="从nfs创建"></a>从nfs创建</h4><p>我们可以直接挂载nfs服务器作为我们的存储空间。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/85.png"></p>
+<p>创建成功后在存储空间和文件管理里面都可以看到我们创建的存储空间nfs_storage。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/86.png"></p>
+<h2 id="网络配置"><a href="#网络配置" class="headerlink" title="网络配置"></a>网络配置</h2><h3 id="有线网络"><a href="#有线网络" class="headerlink" title="有线网络"></a>有线网络</h3><h4 id="dhcp"><a href="#dhcp" class="headerlink" title="dhcp"></a>dhcp</h4><p>使用dhcp自动获取ip地址。将设备通过有线网络接入路由器，即可自动获取ip，通过路由器app或者设备搜索软件都可以查看到nas的ip地址。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/7.png" alt="7"></p>
+<h4 id="手动配置"><a href="#手动配置" class="headerlink" title="手动配置"></a>手动配置</h4><p>通过配置ip，掩码，网关，手动设置静态地址。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/8.png" alt="8"></p>
+<h3 id="wifi网络"><a href="#wifi网络" class="headerlink" title="wifi网络"></a>wifi网络</h3><p>输入wifi名称和wifi密码点击连接按钮即可连接WiFi。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/9.png" alt="9"></p>
+<h2 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h2><p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/11.png" alt="11"></p>
+<h3 id="更改用户名密码"><a href="#更改用户名密码" class="headerlink" title="更改用户名密码"></a>更改用户名密码</h3><p>点击蓝色小人按钮进入，用户名密码编辑界面。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/12.png" alt="12"></p>
+<h3 id="时间配置"><a href="#时间配置" class="headerlink" title="时间配置"></a>时间配置</h3><h4 id="ntp自动校时"><a href="#ntp自动校时" class="headerlink" title="ntp自动校时"></a>ntp自动校时</h4><p>首先其用ntp，然后选择我们所在的时区，最后ntp服务器地址例如：time.windows.com</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/13.png" alt="13"></p>
+<h4 id="手动配置时间"><a href="#手动配置时间" class="headerlink" title="手动配置时间"></a>手动配置时间</h4><p>手动选择时间点击更改即可生效</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/14.png" alt="14"></p>
+<h3 id="系统更新"><a href="#系统更新" class="headerlink" title="系统更新"></a>系统更新</h3><p>点击系统更新的按钮进入系统更新界面，上传系统更新包，上传完成后选择更新即可。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/15.png" alt="15"></p>
+<h2 id="应用中心"><a href="#应用中心" class="headerlink" title="应用中心"></a>应用中心</h2><h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><p>进入应用中心直接点击安装按钮即可安装。</p>
+<h3 id="应用存储"><a href="#应用存储" class="headerlink" title="应用存储"></a>应用存储</h3><h4 id="应用存储备份"><a href="#应用存储备份" class="headerlink" title="应用存储备份"></a>应用存储备份</h4><p>在应用中心点击应用存储，点击备份按钮。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/147.png" alt="147"></p>
+<p>进入备份界面选择备份目录</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/158.png" alt="158"></p>
+<p>点击确认按钮进行备份</p>
+<h4 id="应用备份恢复"><a href="#应用备份恢复" class="headerlink" title="应用备份恢复"></a>应用备份恢复</h4><p>在应用中心点击应用存储，点击备份恢复按钮。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/159.png" alt="159"></p>
+<ul>
+<li>选择从系统默认路径恢复启动，即系统初始路径&#x2F;var&#x2F;lib&#x2F;docker</li>
+<li>从自定义路径恢复启动，这里我们从上面的备份恢复，选择文件夹&#x2F;DATA&#x2F;back&#x2F;volumes，确认后，系统应用存储路径会变为&#x2F;DATA&#x2F;back&#x2F;volumes。</li>
+</ul>
+<h4 id="迁移存储"><a href="#迁移存储" class="headerlink" title="迁移存储"></a>迁移存储</h4><p>在应用中心中点击应用存储按扭进入应用存储界面，点击迁移按钮</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/147.png" alt="147"></p>
+<p>选择需要迁移到那一个目录，点击更改开始迁移。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/160.png" alt="148"></p>
+<p>迁移过程中不要断电，迁移完成后进度条消失，存储路径变为更改后的路径，之前的数据全部迁移到更改后的路径。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/149.png" alt="149"></p>
+<h3 id="添加应用"><a href="#添加应用" class="headerlink" title="添加应用"></a>添加应用</h3><p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/100.png" alt="100"></p>
+<p>点击添加应用按钮，将应用包上传后安装。</p>
+<h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><h3 id="应用设置"><a href="#应用设置" class="headerlink" title="应用设置"></a>应用设置</h3><p>点击某个应用的三个点图标打开应用设置节目。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/10.png" alt="10"></p>
+<ul>
+<li><p>打开：进入应用</p>
+</li>
+<li><p>默认账号：应用的默认账号</p>
+</li>
+<li><p>说明书： 应用的使用说明</p>
+</li>
+<li><p>更改存储地址：所有应用存储的挂载位置都在&#x2F;DATA目录下，如果我们在DATA目录下创建了一个存储空间，那么我们可以把应用挂载到对应的存储空间下</p>
+</li>
+<li><p>卸载：删除软件</p>
+</li>
+<li><p>下面两个按钮分别是刷新，和开关应用按钮</p>
+</li>
+</ul>
+<h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><h3 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h3><p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/87.png"></p>
+<ul>
+<li>nas所有数据都存储在&#x2F;DATA这个目录下。</li>
+<li><strong>除了在存储空间管理里面创建的目录是挂载在磁盘上，其他直接在文件管理里面创建的目录和文件都在系统盘下。</strong></li>
+</ul>
+<h3 id="加密空间"><a href="#加密空间" class="headerlink" title="加密空间"></a>加密空间</h3><p>点击新建加密文件夹进入新建加密文件夹界面。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/88.png"></p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/89.png"></p>
+<p>输入文件夹名和密码后提交新建。创建成功后会创建一个加密文件夹里面包含.crypt目录和.data目录。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/91.png"></p>
+<p>.crypt是加密文件夹，.data是解密空间。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/92.png"></p>
+<p>点击.crypt的…进入菜单，选择解密到.data目录（默认刚创建的时候会自动解密到.data, 每次重启后会自动是否.data需要重新解密）</p>
+<p>将数据放入解密空间，数据会自动写入到加密文件夹。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/93.png"></p>
+<p>释放解密空间,点击.data菜单栏释放解密空间</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/94.png"></p>
+<p>释放后.data目录会自动消失，点击.crypt菜单栏里面的解密到.data目录会.data里面数据会恢复。</p>
+<h3 id="搜索排序"><a href="#搜索排序" class="headerlink" title="搜索排序"></a>搜索排序</h3><p>支持按文件大小排序，以及按日期排序</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/161.png"></p>
+<p>点击搜索按钮，进入搜索界面，输入文字进行搜索，可以选择模糊查询，或者递归查询子目录，以及是否匹配大小写。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/162.png"></p>
+<h3 id="在线解压缩"><a href="#在线解压缩" class="headerlink" title="在线解压缩"></a>在线解压缩</h3><p>点击对应文件的菜单栏选择解压缩</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/141.png"></p>
+<h3 id="文件共享"><a href="#文件共享" class="headerlink" title="文件共享"></a>文件共享</h3><p>点击操作选择文件夹共享</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/88.png"></p>
+<p>点击新增共享文件夹</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/95.png"></p>
+<h4 id="新建samba服务"><a href="#新建samba服务" class="headerlink" title="新建samba服务"></a>新建samba服务</h4><ul>
+<li>共享目录： 选择&#x2F;DATA下面的目录</li>
+<li>用户选择：可以选择已有的samba用户，也可以新增samba用户。</li>
+</ul>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/96.png"></p>
+<p>使用，在Windows系统下连接Samba服务。只需在Windows的“运行”命令框中（用快捷键“Win+R”就可以打开）输入两个反斜杠，然后再加服务器的IP地址即可。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/136.png"></p>
+<p>当然也可以在文件夹搜索框里打开</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/137.png"></p>
+<p>输入用户名密码</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/138.png"></p>
+<p>成功后通过两个反斜杠，然后再加服务器的IP地址即可看到我们共享出来的文件夹</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/139.png"></p>
+<p>当然我们还可以把他映射到驱动器，当作一个网络盘使用。</p>
+<h4 id="新增nfs共享文件夹"><a href="#新增nfs共享文件夹" class="headerlink" title="新增nfs共享文件夹"></a>新增nfs共享文件夹</h4><ul>
+<li>共享目录： 选择&#x2F;DATA下面的目录</li>
+</ul>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/97.png"></p>
+<h4 id="删除共享文件夹"><a href="#删除共享文件夹" class="headerlink" title="删除共享文件夹"></a>删除共享文件夹</h4><p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/142.png"></p>
+<p>点击删除按钮会删除共享文件夹，同时如果这个用户只在这个共享文件夹中使用，删除操作也会同时删除这个用户。</p>
+<h3 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h3><p>点击操作选择备份。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/88.png"></p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/117.png"></p>
+<p>支持通过点击标签进行排序的功能，支持搜索功能。</p>
+<h4 id="手动备份"><a href="#手动备份" class="headerlink" title="手动备份"></a>手动备份</h4><p>点击新增备份，创建新的备份，这里我们从文件夹1备份到文件夹2</p>
+<p>备份方式有两种一种是镜像备份一种是更新备份</p>
+<p>镜像：备份后目录和源目录完全一致</p>
+<p>更新：源目录中数据增量同步到备份目录，即新增和修改都会同步到备份目录，但是删除操作不会同步，保留安全冗余。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/118.png"></p>
+<p>添加备份成功后，点击备份按钮进行备份，备份成功后会记录备份成功的时间。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/119.png"></p>
+<p>点击备份按钮后，系统会判断哪些文件修改过并进行同步，备份速度快。</p>
+<p>因为不是定时任务，所以只会在点击备份按钮的时候执行。</p>
+<h4 id="定时备份"><a href="#定时备份" class="headerlink" title="定时备份"></a>定时备份</h4><p>打开定时备份按钮，并选择任务执行间隔，例如我们选择每两个小时备份一次。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/163.png"></p>
+<p>设置成功后可以看到</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/164.png"></p>
+<h3 id="文件操作日志"><a href="#文件操作日志" class="headerlink" title="文件操作日志"></a>文件操作日志</h3><p>点击操作-&gt;操作日志，可以看到复制、剪切、删除、解压操作的日志。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/140.png"></p>
+<h3 id="同步权限"><a href="#同步权限" class="headerlink" title="同步权限"></a>同步权限</h3><p>部分第三方应用之间权限不一致，导致第三方应用提示无权限写入，或者smb客户端无权限写入等情况。这是需要点击同步权限按钮，进行权限同步。</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/146.png"></p>
+<p>注意： 系统存储应用不建议同步权限，因为部分第三方应用对权限有严格要求。</p>
+<h1 id="移动端"><a href="#移动端" class="headerlink" title="移动端"></a>移动端</h1><h2 id="侧边栏"><a href="#侧边栏" class="headerlink" title="侧边栏"></a>侧边栏</h2><p>点击设置里面的侧边栏访问按钮进入侧边栏</p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/98.png"></p>
+<p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/99.png"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>测试文档xzw</title>
-    <url>/2023/11/11/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/</url>
-    <content><![CDATA[]]></content>
       <categories>
-        <category>分类</category>
-        <category>子分类</category>
-        <category>子子分类</category>
-      </categories>
-      <tags>
-        <tag>标签1</tag>
-        <tag>标签2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2023/11/11/%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6/</url>
-    <content><![CDATA[<p><img src="/img/xzw/1.jpeg"></p>
-]]></content>
-      <categories>
-        <category>测试</category>
+        <category>nas</category>
       </categories>
   </entry>
 </search>

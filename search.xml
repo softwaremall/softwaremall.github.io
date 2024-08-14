@@ -162,6 +162,194 @@
 <p><img src="/img/nas%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/99.png"></p>
 ]]></content>
       <categories>
+        <category>流媒体</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>流媒体使用手册</title>
+    <url>/2024/08/14/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/</url>
+    <content><![CDATA[<h1 id="管理平台（web）"><a href="#管理平台（web）" class="headerlink" title="管理平台（web）"></a>管理平台（web）</h1><h2 id="连接设备"><a href="#连接设备" class="headerlink" title="连接设备"></a>连接设备</h2><p>设备默认ip是192.168.2.250端口号80，用网线直连设备和电脑，修改电脑ip地址和设备在同一个网段，如192.168.2.9</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/50.png" alt="50"></p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/51.png" alt="51"></p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/52.png" alt="52"></p>
+<p> 在浏览器中访问<a href="http://192.168.2.250来管理设备。根据实际需求可以在《系统设置》->《网络设置》里面修改网络，接入局域网中。">http://192.168.2.250来管理设备。根据实际需求可以在《系统设置》-&gt;《网络设置》里面修改网络，接入局域网中。</a></p>
+<h2 id="设备登录"><a href="#设备登录" class="headerlink" title="设备登录"></a>设备登录</h2><p>打开浏览器输入<a href="http://ip:80登录平台，平台默认用户admin，默认密码admin">http://ip:80登录平台，平台默认用户admin，默认密码admin</a></p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/14.png" alt="14"></p>
+<h2 id="大屏监控"><a href="#大屏监控" class="headerlink" title="大屏监控"></a>大屏监控</h2><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/15.png" alt="15"></p>
+<ul>
+<li>大屏监控支持1分屏，4分屏，9分屏三种方式</li>
+<li>选择播放框后，点击对应设备即可播放</li>
+</ul>
+<h2 id="系统监控"><a href="#系统监控" class="headerlink" title="系统监控"></a>系统监控</h2><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/21.png" alt="21"></p>
+<p>系统监控中记录了cpu ，网络， 内存， 磁盘的使用情况。</p>
+<h2 id="视频播放"><a href="#视频播放" class="headerlink" title="视频播放"></a>视频播放</h2><p>点击播放按钮，跳转到视频播放界面。</p>
+<p>云台控制只支持通过国标接入的球机。</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/36.png" alt="36"></p>
+<p>视频流播放地址，支持rtsp,rtmp, http-ts,http-flv,ws-flv等视频协议</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/37.png" alt="37"></p>
+<h2 id="onvif设备"><a href="#onvif设备" class="headerlink" title="onvif设备"></a>onvif设备</h2><p>IP地址填摄像头ip，端口一般默认80，用户名密码填摄像头用户名密码。</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/45.png" alt="45"></p>
+<p>点击下一步后会弹出该摄像头所有的视频流，选择需要的流添加名称，流应用名和流id</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/46.png" alt="46"></p>
+<p>添加成功后即可看到该设备列表。</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/47.png" alt="47"></p>
+<p>点击播放进入设备播放控制界面。</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/48.png" alt="48"></p>
+<h2 id="国标设备"><a href="#国标设备" class="headerlink" title="国标设备"></a>国标设备</h2><p>首先查看媒体配置</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/43.png" alt="43"></p>
+<h3 id="大华摄像头"><a href="#大华摄像头" class="headerlink" title="大华摄像头"></a>大华摄像头</h3><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/%E5%A4%A7%E5%8D%8E.png" alt="大华"></p>
+<ul>
+<li>SIP服务器编号填写国标平台信息的（4国标编号）</li>
+<li>SIP服务器IP填写国标平台信息的（1流媒体平台ip地址）</li>
+<li>SIP域填写国标平台信息的（3国标域）</li>
+<li>SIP服务器端口填写国标平台信息的（2国标端口）</li>
+<li>注册密码填写国标平台信息的（5国标密码）</li>
+<li>设备编号填写20位国标设备ID，自行分配只要不重复即可（如不会可使用国标平台编号修改后5位，如34020000002000000002）</li>
+<li>通道编号填写20位视频通道ID，自行分配同一个设备内不重复即可（如不会可使用默认编号例如：34020000001310000001）</li>
+<li>其他值默认即可</li>
+<li><strong>勾选接入使能后保存方可生效</strong></li>
+</ul>
+<h3 id="海康摄像头"><a href="#海康摄像头" class="headerlink" title="海康摄像头"></a>海康摄像头</h3><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/%E6%B5%B7%E5%BA%B7.png" alt="海康"></p>
+<ul>
+<li>SIP服务器ID填写国标平台信息的（4国标编号）</li>
+<li>SIP服务器地址填写国标平台信息的（1流媒体平台ip地址）</li>
+<li>SIP服务器域填写国标平台信息的（3国标域）</li>
+<li>SIP服务器端口填写国标平台信息的（2国标端口）</li>
+<li>注册密码，确认密码都填写国标平台信息的（5国标密码）</li>
+<li>SIP用户名&#x2F;SIP用户认证ID填写20位国标设备ID，自行分配只要设备间不重复即可（如不会可使用国标平台编号修改后5位，如34020000002000000002）</li>
+<li>视频通道编码ID填写20位视频通道ID，自行分配同一个设备内不重复即可（如不会可使用默认编号例如：34020000001310000001）</li>
+<li>其他值默认即可</li>
+<li><strong>勾选启用后保存方可生效</strong></li>
+</ul>
+<h3 id="艾科威视摄像头"><a href="#艾科威视摄像头" class="headerlink" title="艾科威视摄像头"></a>艾科威视摄像头</h3><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/%E8%89%BE%E7%A7%91%E5%A8%81%E8%A7%86.png" alt="艾科威视"></p>
+<ul>
+<li>SIP服务器ID填写国标平台信息的（4国标编号）</li>
+<li>SIP服务器地址填写国标平台信息的（1流媒体平台ip地址）</li>
+<li>SIP服务器名称填写国标平台信息的（3国标域）</li>
+<li>SIP服务器端口填写国标平台信息的（2国标端口）</li>
+<li>SIP认证密码填写国标平台信息的（5国标密码）</li>
+<li>SIP用户名&#x2F;SIP用户认证ID填写20位国标设备ID，自行分配只要设备间不重复即可（如不会可使用国标平台编号修改后5位，如34020000002000000002）</li>
+<li>视频通道编码ID填写20位视频通道ID，自行分配同一个设备内不重复即可（如不会可使用默认编号例如：34020000001310000001）</li>
+<li>其他值默认即可</li>
+<li><strong>登录接入服务器选择启用</strong></li>
+</ul>
+<h3 id="水星摄像头"><a href="#水星摄像头" class="headerlink" title="水星摄像头"></a>水星摄像头</h3><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/%E6%B0%B4%E6%98%9F.png" alt="水星"></p>
+<ul>
+<li>SIP服务器ID填写国标平台信息的（4国标编号）</li>
+<li>SIP服务器地址填写国标平台信息的（1流媒体平台ip地址）</li>
+<li>SIP服务器域填写国标平台信息的（3国标域）</li>
+<li>SIP服务器端口填写国标平台信息的（2国标端口）</li>
+<li>密码填写国标平台信息的（5国标密码）</li>
+<li>SIP用户名&#x2F;SIP用户认证ID填写20位国标设备ID，自行分配只要设备间不重复即可（如不会可使用国标平台编号修改后5位，如34020000002000000002）</li>
+<li>视频通道编码ID填写20位视频通道ID，自行分配同一个设备内不重复即可（如不会可使用默认编号例如：34020000001310000001）</li>
+<li>其他值默认即可</li>
+<li><strong>勾选启用后保存方可生效</strong></li>
+</ul>
+<h2 id="拉流设备"><a href="#拉流设备" class="headerlink" title="拉流设备"></a>拉流设备</h2><p>拉流设备用于从摄像头或者第三方视频平台拉取RTSP视频流和RTMP视频流</p>
+<p>点击添加代理来创建拉流代理</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/20.png" alt="20"></p>
+<ul>
+<li><p>名称：根据需求填写</p>
+</li>
+<li><p>流应用名： 根据需求填写(推荐英文加数字)</p>
+</li>
+<li><p>流Id： 根据需求填写(推荐英文加数字)</p>
+</li>
+<li><p>拉流地址： 支持rtsp和rtmp两种协议，直接输入需要拉流设备的rtsp或rtmp地址即可</p>
+</li>
+<li><p>创建完成后即可启用设备</p>
+</li>
+<li><p>以大华摄像头为例：</p>
+</li>
+</ul>
+<p>大华摄像头rtsp格式如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rtsp://[username]:[password]@[address]:[port]/cam/realmonitor?channel=[id]&amp;subtype=[type]</span><br><span class="line">rtsp:// =&gt; 协议格式头</span><br><span class="line">username =&gt; 用户名，例如：admin</span><br><span class="line">password =&gt; 密码，例如：123456</span><br><span class="line">address =&gt; IPC设备的网络地址，例如：192.168.1.65</span><br><span class="line">port =&gt; IPC设备的RTSP输出端口，默认为554，若为默认可不填写</span><br><span class="line">id =&gt; 通道号，起始为1。例如通道2，则为channel=2。</span><br><span class="line">type =&gt; 码流类型，主码流为0（即subtype=0），辅码流为1（即subtype=1）。</span><br></pre></td></tr></table></figure>
+
+<p>如果我们要拉取的设备ip是192.168.1.65用户名密码为admin&#x2F;123456，则在拉流地址中输入rtsp:&#x2F;&#x2F;admin:<a href="mailto:&#49;&#x32;&#51;&#52;&#53;&#54;&#64;&#x31;&#57;&#50;&#46;&#x31;&#54;&#x38;&#46;&#49;&#46;&#54;&#x35;">&#49;&#x32;&#51;&#52;&#53;&#54;&#64;&#x31;&#57;&#50;&#46;&#x31;&#54;&#x38;&#46;&#49;&#46;&#54;&#x35;</a>:554&#x2F;cam&#x2F;realmonitor?channel&#x3D;1&amp;subtype&#x3D;0即可拉取主码流</p>
+<h2 id="推流设备"><a href="#推流设备" class="headerlink" title="推流设备"></a>推流设备</h2><p>推流设备用用于展示第三方摄像头或者流媒体平台推过来的RTSP视频流或者RTMP视频流</p>
+<p>推流时需要携带推流密码（推流密码在媒体设置中查看）鉴权的签名sign，使用形式为后缀加上?sign&#x3D;推流密码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">rtsp://192.168.0.250/test/live?sign=123456</span><br></pre></td></tr></table></figure>
+
+<p><strong>我们使用ffmpeg来模拟推流</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ffmpeg -re -stream_loop -1 -i test.mp4 -framerate 25 -r 25 -vcodec copy -acodec copy -preset ultrafast -f rtsp -rtsp_transport tcp rtsp://192.168.0.250/test/live?sign=123456</span><br></pre></td></tr></table></figure>
+
+<p>上面我们是将test.mp4以rtsp协议的方式推送到我们的流媒体服务器上，这是我们的管理平台推流设备中就可以看到app为test，流id为live的设备</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/30.png" alt="30"></p>
+<p><strong>我们再使用OBS来推流</strong></p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/34.png" alt="34"></p>
+<p>test是流应用名，live是流id，sign是推流密码</p>
+<p>效果和上面的ffmpeg推流一样</p>
+<h2 id="对外推流"><a href="#对外推流" class="headerlink" title="对外推流"></a>对外推流</h2><p>可以以RTSP或者RTMP协议推流到第三方流媒体平台，以及各种直播平台。</p>
+<p>首先选择一个我们流媒体中的视频流地址选择rtsp活rtmp拷贝</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/23.png" alt="23"></p>
+<p>在对外推流中点击添加，将我们复制的地址拷贝到源地址，推流方式要和源地址一致，如果是推rtsp流则选择rtsp，推流地址填写目标地址</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/24.png" alt="24"></p>
+<h2 id="系统设置"><a href="#系统设置" class="headerlink" title="系统设置"></a>系统设置</h2><h3 id="媒体配置"><a href="#媒体配置" class="headerlink" title="媒体配置"></a>媒体配置</h3><p>国标设备接入主要是需要在设备上配置28181上级也就是流媒体的信息，信息一致才可以注册成功。</p>
+<p>点击系统设置-》媒体配置，如下图：</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/9.png" alt="9"></p>
+<ul>
+<li><p>IP: 流媒体的ip地址，用于视频流连接和返回，如果使用有线连接就用有线的ip地址，用wifi连接就用wifi的ip地址。</p>
+</li>
+<li><p>推流密码：如果为空则不需要密码否则第三方推流到平台需要用到这个密码。</p>
+</li>
+<li><p>HTTP端口-RTSMPS端口：不同协议视频流端口号</p>
+</li>
+<li><p>国标端口：对应摄像头设备里面填写的SIP服务器端口。</p>
+</li>
+<li><p>国标域：对应设备里面的SIP服务器域。</p>
+</li>
+<li><p>国标编号：SIP服务器ID。</p>
+</li>
+<li><p>国标注册密码：国标注册密码。</p>
+</li>
+<li><p>国标收流端口：一串连续的端口号用于国标收流，最少确保36个端口。</p>
+</li>
+<li><p>国标无人观看自动关闭：开启：点播后播放，无人观看自动断流。关闭：无需点播自动播放，视频流一直存在。</p>
+</li>
+</ul>
+<h3 id="网络设置"><a href="#网络设置" class="headerlink" title="网络设置"></a>网络设置</h3><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/17.png" alt="17"></p>
+<ul>
+<li>dhcp: 关闭则使用手动配置ip信息，开启自动获取ip信息。</li>
+<li>同步流媒体配置：开启会将当前ip地址自动更新到流媒体配置中。</li>
+</ul>
+<h3 id="wifi设置"><a href="#wifi设置" class="headerlink" title="wifi设置"></a>wifi设置</h3><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/44.png" alt="44"></p>
+<h3 id="时间设置"><a href="#时间设置" class="headerlink" title="时间设置"></a>时间设置</h3><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/19.png"></p>
+<ul>
+<li>推荐开启ntp自动校时服务，可以确保系统时间正确。</li>
+</ul>
+<h3 id="系统更新"><a href="#系统更新" class="headerlink" title="系统更新"></a>系统更新</h3><p>在系统设置-》系统更新页面，上传更新包</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/41.png"></p>
+<p>点击上传，选择更新包，上传成功后出现更新系统按钮，点击更新按钮更新系统。</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/42.png"></p>
+<p>更新完成后重启后生效</p>
+<h1 id="监控大屏（pc）"><a href="#监控大屏（pc）" class="headerlink" title="监控大屏（pc）"></a>监控大屏（pc）</h1><h2 id="登录界面"><a href="#登录界面" class="headerlink" title="登录界面"></a>登录界面</h2><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/31.png"></p>
+<ul>
+<li>服务器ip填写设备实际的ip地址</li>
+<li>端口： 8080</li>
+<li>账号：admin</li>
+<li>密码：用实际密码</li>
+</ul>
+<h2 id="监控界面"><a href="#监控界面" class="headerlink" title="监控界面"></a>监控界面</h2><p>双击界面上任意一个播放框，选择播放内容，或者关闭当前内容</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/33.png"></p>
+<p>监控画面如下，国标接入的球机可以按下左键拖动控制云台</p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/32.png"></p>
+<p>。</p>
+<h1 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h1><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul>
+<li>国标设备的设备ID不能重复</li>
+<li>拉流设备，推流设备同一个流应用名（app）下面的流Id不能重复</li>
+</ul>
+<h2 id="国标ID命名规范"><a href="#国标ID命名规范" class="headerlink" title="国标ID命名规范"></a>国标ID命名规范</h2><p>国标ID由中心编码（8位）、行业编码（2位）、类型编码（3位）和序号（7位）四个码段共20位十进制数字字符构成，即系统编码 &#x3D;中心编码 + 行业编码 + 类型编码 + 序号。<br>国标ID命名的详细说明见<strong>详细编码规则</strong>。其中：</p>
+<ul>
+<li>中心编码：指用户或设备所归属的监控中心的编码，按照监控中心所在地的行政区划代码确定，当不是基层单位时空余位为0。行政区划代码采用GB&#x2F;T 2260-2007规定的行政区划代码表示。</li>
+<li>行业编码：是指用户或设备所归属的行业，行业编码对照详见<strong>行业编码规范</strong>。</li>
+<li>类型编码指定了设备或用户的具体类型，其中的前端设备包含公安系统和非公安系统的前端设备，终端用户包含公安系统和非公安系统的终端用户。</li>
+</ul>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/10.png"></p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/11.png" alt="水星"></p>
+<p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/12.png" alt="水星"></p>
+<h4 id="行业编码规范"><a href="#行业编码规范" class="headerlink" title="行业编码规范"></a>行业编码规范</h4><p><img src="/img/%E6%B5%81%E5%AA%92%E4%BD%93%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/13.png" alt="水星"></p>
+]]></content>
+      <categories>
         <category>nas</category>
       </categories>
   </entry>
